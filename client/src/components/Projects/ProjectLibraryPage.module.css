@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    max-width: 90%;
+    column-gap: 100px;
+}
+
+.projectSidebar {
+    margin-top: 15%;
+    margin-left: 12%;
+    color: #707070;
+    font-weight: bold;
+    font-family: Open Sans, Regular;
+    text-align: left;
+}
+
+.checkboxContainer {
+    font: 12px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.checkboxContainer>p {
+    border-bottom: 1px solid #707070;
+    width: 150px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.checkMark {
+    padding: 10px;
+
+}
+
+.checkboxOptions {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.checkboxOptionName {
+    font-size: 13px;
+}
+
+.checkboxIcon {
+    box-shadow: 0px 5px 10px 0px #707070(0, 0, 0, 0.5);
+}
+
+.projectContent {
+    margin-top: 60px;
+    max-width: 100%;
+}
+
+.projectCardsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #707070;
+    font-weight: bold;
+
+}
+
+.projectAvatar {
+    display: block;
+    border: 0;
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.projectName {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-overflow: wrapping;
+}
+
+.projectCourse {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+.projectActivityType {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.pageHeading {
+    color: #707070;
+    font-weight: bold;
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.description {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.backToTopButton {
+    background-color: #E5AB2C;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 5px #00000029;
+    border-spacing: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 145px;
+    padding: 6px;
+}
+
+.backToDashboard {
+    background-color: #F91C85;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 5px #00000029;
+    border-spacing: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    padding: 6px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.buttons1 {
+    width: 100%;
+    display: flex;
+    flex: 50%;
+    justify-content: flex-start;
+    
+}
+
+.buttons2 {
+    width: 100%;
+    display: flex;
+    flex: 50%;
+    margin-left: 350px;
+    /* margin-right: 210px; */
+    /* justify-content: flex-end; */
+}
+
+.beginnerButton {
+    border: none;
+    width: 110px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.intermediateButton {
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid rgb(207, 207, 207, 0.5);
+    border-right: 1px solid rgb(207, 207, 207, 0.5);
+    padding: 0 1vw;
+}
+
+.advanceButton {
+    border: none;
+    width: 110px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.show {
+    padding-right: 20px;
+}
+
+.numberedButton1 {
+    border: none;
+    width: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.numberedButtonMid {
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid rgb(207, 207, 207, 0.5);
+    border-right: 1px solid rgb(207, 207, 207, 0.5);
+    width: 50px;
+}
+
+.numberedButton2 {
+    border: none;
+    width: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.bottomButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 640px;
+    /* margin-right: 210px; */
+    /* justify-content: flex-end; */
+}

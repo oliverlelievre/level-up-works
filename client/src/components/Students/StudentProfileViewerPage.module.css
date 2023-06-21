@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #efefef;
+}
+
+.maincontainer {
+    width: 100%;
+    height: auto;
+    
+    background-color: #efefef;
+    /* margin-top: none; */
+}
+
+/* student pic - left side */
+.studentpiccontainer {
+    width: 300px;
+    height: 470px;
+    border-radius: 30px;
+    border: 2px solid #E2DFDF;
+    opacity: 1;
+    background-color: #FFFFFF;
+    margin-top: 130px;
+    margin-left: 370px;
+}
+
+.studentpic {
+    width: 175px;
+    /* height: 175px; */
+    background: transparent;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 56px;
+}
+
+.studentpagebutton {
+    background-color: #FFFFFF;
+    color: #43C0F6;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0.32px;
+    opacity: 1;
+    text-align: center;
+    border: 2px solid #43C0F6;
+    border-radius: 7px;
+    box-shadow: 0px 4px 5px #00000029;
+    border-spacing: 30px;
+    margin-top: 25px;
+    margin-left: 80px;
+    margin-right: 56px;
+    width: 130px;
+    padding: 5px;
+
+
+}
+
+/* student info - right side */
+.studentinfocontainer {
+    width: 600px;
+    height: 570px;
+    border-radius: 30px;
+    border: 2px solid #E2DFDF;
+    opacity: 1;
+    background-color: #FFFFFF;
+    margin-top: -465px;
+    margin-left: 717px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.studenttable {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.studentname {
+    background-color: #FFFFFF;
+    color: #707070;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.studenttableStaticdata {
+    background-color: #FFFFFF;
+    color: #a5a5a5;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.6px;
+    padding: 12px;
+}
+
+.studenttableJSONdata {
+    background-color: #FFFFFF;
+    color: #707070;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 0.6px;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+
+/* back to projects - button */
+.backbutton {
+    background-color: #F91C85;
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 5px #00000029;
+    border-spacing: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 1160px;
+    /* margin-right: 60px; */
+    width: 145px;
+    padding: 6px;
+}

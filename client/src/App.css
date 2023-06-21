@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;900&family=Open+Sans:wght@400;500;600&display=swap');
+
+
+:root {
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family: 'Nunito', sans-serif;
+    --font-size: 16px;
+}
+
+*,
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 30px; height: 30px; transform: rotate(65deg);"><path d="M16 11v1.5h-8.5l3.5 3.5-1 1-5-5 5-5 1 1-3.5 3.5H16z" stroke="%23707070" stroke-width="2" fill="%23291b25"/></svg>') 8 8, auto;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Nunito', sans-serif;
+    background-color: #fff;
+    color: #707070;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.MuiTypography-root {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: 'Nunito, sans-serif';
+    font-weight: 'bold';
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+/* a {
+    text-decoration: none;
+    color: #fff;
+} */
